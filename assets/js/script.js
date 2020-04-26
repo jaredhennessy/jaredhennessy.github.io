@@ -1,3 +1,11 @@
 $(document).ready(function () {
-  console.log("Hello World");
+  // Check for click events on the navbar burger icon
+  $(".navbar-burger").click(function () {
+    // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+    $(".navbar-burger").toggleClass("is-active");
+    $(".navbar-menu").toggleClass("is-active");
+  });
+
+  var yearCount = moment().format("YYYY") - 2006;
+  $("#yearCalc").html(yearCount);
 });

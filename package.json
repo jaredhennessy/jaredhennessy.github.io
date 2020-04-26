@@ -1,0 +1,22 @@
+{
+  "name": "jaredhennessy.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaredhennessy/jaredhennessy.github.io.git"
+  },
+  "author": "Jared Hennessy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaredhennessy/jaredhennessy.github.io/issues"
+  },
+  "homepage": "https://github.com/jaredhennessy/jaredhennessy.github.io#readme",
+  "dependencies": {
+    "bulma": "^0.8.2"
+  }
+}
