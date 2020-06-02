@@ -1,134 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- Bulma Framework -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- icon from Font Awesome -->
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
-      crossorigin="anonymous"
-    />
+  <!-- Bulma Framework -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css" />
 
-    <!-- my CSS -->
-    <link rel="stylesheet" href="./assets/css/style.css" />
+  <!-- icon from Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
 
-    <!-- extra fonts from google -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap"
-      rel="stylesheet"
-    />
+  <!-- my CSS -->
+  <link rel="stylesheet" href="./assets/css/style.css" />
 
-    <title>Portfolio</title>
-  </head>
-  <body class="has-navbar-fixed-top">
-    <nav
-      class="navbar is-fixed-top"
-      role="navigation"
-      aria-label="main navigation"
-    >
-      <div class="navbar-brand">
-        <a class="navbar-item" href="./index.html">
-          Jared Hennessy
-        </a>
-        <!-- navbar burger displayed at < 1024px only -->
-        <a
-          role="button"
-          class="navbar-burger burger"
-          aria-label="menu"
-          aria-expanded="false"
-          data-target="navbarBasic"
-        >
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-        </a>
+  <!-- extra fonts from google -->
+  <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet" />
+
+  <title>Portfolio</title>
+</head>
+
+<body class="has-navbar-fixed-top">
+  <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="./index.html">
+        Jared Hennessy
+      </a>
+      <!-- navbar burger displayed at < 1024px only -->
+      <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasic">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+    <!-- navbar menu displayed at >= 1024px only -->
+    <div id="navbarBasic" class="navbar-menu">
+      <div class="navbar-end">
+        <a class="navbar-item is-tab" href="./index.html">About Me</a>
+        <a class="navbar-item is-tab" href="./contact.html">Contact</a>
       </div>
+    </div>
+  </nav>
 
-      <!-- navbar menu displayed at >= 1024px only -->
-      <div id="navbarBasic" class="navbar-menu">
-        <div class="navbar-end">
-          <a class="navbar-item is-tab" href="./index.html">About Me</a>
-          <a class="navbar-item is-tab" href="./contact.html">Contact</a>
+  <div class="container">
+
+
+    <div class="columns">
+
+      <div class="column">
+        <div class="card">
+          <div class="card-content">
+            <p>I'm currently updating my full-stack develeopment skills. This very page and projects like these are how
+              I'm wrapping my head around some new concepts.
+              <br /><br />All this and more can be found on <a
+                href="https://github.com/jaredhennessy/">GitHub/jaredhennessy</a>, and more info about the types of
+              things that I build can be found on <a href="./assets/images/Hennessy.pdf" target="_blank">my resume</a>.
+            </p>
+          </div>
         </div>
       </div>
-    </nav>
 
-      <div class="container">
-   
-
-            <div class="columns">
-        
-                <div class="column">
-                  <div class="card">
-                    <div class="card-content">
-                        <p>I'm currently updating my full-stack develeopment skills. This very page and projects like these are how I'm wrapping my head around some new concepts. 
-                            <br/><br/>All this and more can be found on <a href="https://github.com/jaredhennessy/">GitHub/jaredhennessy</a>, and more info about the types of things that I build can be found on <a href="./assets/images/Hennessy.pdf" target="_blank">my resume</a>.</p>
-                    </div>
-                </div>
-                </div>
-                
-                <div class="column">
-                  <div class="card">
-                    <div class="card-image">
-                        <figure class="image is-16by9"><img src="./assets/images/Quarentainment-ws.png" alt="Quarentainment"/></figure>
-                    </div>
-                    <div class="card-content">
-                        <p class="title is-4">Quarentainment</p>
-                        <a href="https://jaredhennessy.github.io/Quarentainment/">See It Here</a></br>
-                        <a href="https://github.com/jaredhennessy/quarentainment/">GitHub Respository</a>
-                    </div>
-                </div>
-                </div>
-                
-            </div>
-            <div class="columns">
-                
-                <div class="column">
-                  <div class="card">
-                    <div class="card-image">
-                        <figure class="image is-16by9"><img src="./assets/images/WeatherDashboard-ws.png" alt="Weather Dashboard"/></figure>
-                    </div>
-                    <div class="card-content">
-                        <p class="title is-4">Weather Dashboard</p>
-                        <a href="https://jaredhennessy.github.io/WeatherDashboard/">See It Here</a></br>
-                        <a href="https://github.com/jaredhennessy/WeatherDashboard/">GitHub Respository</a>
-                    </div>
-                </div>
-                </div>
-
-                <div class="column">
-                  <div class="card">
-                    <div class="card-image">
-                        <figure class="image is-16by9"><img src="./assets/images/Team-Profile-Generator-ws.png" alt="Team Profile Generator"/></figure>
-                    </div>
-                    <div class="card-content">
-                        <p class="title is-4">Team Profile Generator</p>
-                        <a href="https://github.com/jaredhennessy/Team-Profile-Generator/">GitHub Respository</a>
-                    </div>
-                </div>
-                </div>  
-
-            </div>
+      <div class="column">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-16by9"><img src="./assets/images/Quarentainment-ws.png" alt="Quarentainment" />
+            </figure>
+          </div>
+          <div class="card-content">
+            <p class="title is-4">Quarentainment</p>
+            <a href="https://jaredhennessy.github.io/Quarentainment/">See It Here</a></br>
+            <a href="https://github.com/jaredhennessy/quarentainment/">GitHub Respository</a>
+          </div>
+        </div>
+      </div>
 
     </div>
-    
-    <!-- <footer class="footer">
+    <div class="columns">
+
+      <div class="column">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-16by9"><img src="./assets/images/WeatherDashboard-ws.png" alt="Weather Dashboard" />
+            </figure>
+          </div>
+          <div class="card-content">
+            <p class="title is-4">Weather Dashboard</p>
+            <a href="https://jaredhennessy.github.io/WeatherDashboard/">See It Here</a></br>
+            <a href="https://github.com/jaredhennessy/WeatherDashboard/">GitHub Respository</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-16by9"><img src="./assets/images/BurgerLogger-ws.png" alt="Eat-Da-Burger" />
+            </figure>
+          </div>
+          <div class="card-content">
+            <p class="title is-4">Eat-Da-Burger</p>
+            <a href="https://mysterious-savannah-22824.herokuapp.com/">See It Here</a></br>
+            <a href="https://github.com/jaredhennessy/BurgerLogger/">GitHub Respository</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- <footer class="footer">
         <div class="content has-text-centered">
             <p>All this and more can be found on <a href="https://github.com/jaredhennessy/">GitHub/jaredhennessy</a>!</p>
         </div>
     </footer> -->
 
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-    <script src="./assets/js/script.js"></script>
-  </body>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+  <script src="./assets/js/script.js"></script>
+</body>
+
 </html>
