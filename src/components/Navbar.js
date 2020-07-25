@@ -1,5 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
+import { Link } from "react-router-dom";
 import { useLocation } from "react-router-dom";
 
 function Navbar() {
@@ -32,26 +33,26 @@ function Navbar() {
       {/* navbar menu displayed at >= 1024px  */}
       <div id="navbarBasic" className="navbar-menu">
         <div className="navbar-end">
-          <a
+          <Link
             className={
               location.pathname !== "/portfolio"
                 ? "navbar-item is-tab hidden"
                 : "navbar-item is-tab"
             }
-            href="/"
+            to="/"
           >
             About Me
-          </a>
-          <a
+          </Link>
+          <Link
             className={
               location.pathname === "/portfolio"
                 ? "navbar-item is-tab hidden"
                 : "navbar-item is-tab"
             }
-            href="/portfolio"
+            to="/portfolio"
           >
             Portfolio
-          </a>
+          </Link>
         </div>
       </div>
     </nav>
