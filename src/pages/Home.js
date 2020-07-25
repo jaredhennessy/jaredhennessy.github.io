@@ -10,7 +10,7 @@ function Home() {
               <img
                 id="myFace"
                 alt="My Face"
-                src="./assets/images/20190718.png"
+                src={process.env.PUBLIC_URL + "/assets/images/20190718.png"}
               />
             </div>
 

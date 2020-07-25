@@ -1,5 +1,7 @@
-import React from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import React, { useEffect, useState } from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import projectsArray from "./utils/projects.json";
+// import PortfolioContext from "./utils/PortfolioContext";
 import Home from "./pages/Home";
 import Portfolio from "./pages/Portfolio";
 import Navbar from "./components/Navbar";
@@ -20,12 +22,29 @@ $(document).ready(function () {
 });
 
 function App() {
+  const [projects, setProjects] = useState([]);
+  const [loaded, setLoaded] = useState(false);
+
+  useEffect(() => {
+    setProjects(projectsArray);
+    setLoaded(true);
+    // console.log(projects);
+  }, [projects]);
+
   return (
     <Router>
       <div>
         <Navbar />
-        <Route exact path="/" component={Home} />
-        <Route exact path="/portfolio" component={Portfolio} />
+        <Switch>
+          <Route
+            exact
+            path="/portfolio"
+            render={props => (
+              <Portfolio {...props} portfolio={projects} loaded={loaded} />
+            )}
+          />
+          <Route path="*" component={Home} />
+        </Switch>
         <Footer />
       </div>
     </Router>

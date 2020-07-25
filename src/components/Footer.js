@@ -10,19 +10,13 @@ function Footer() {
           You can get a hold of me via gmail (jared dot hennessy at...) and{" "}
           <a
             className="LI-simple-link"
-            href="https://www.linkedin.com/in/jaredhennessy?trk=profile-badge"
+            href="https://www.linkedin.com/in/jaredhennessy"
           >
             LinkedIn
           </a>
           .
         </p>
       </div>
-      <script
-        type="text/javascript"
-        src="https://platform.linkedin.com/badges/js/profile.js"
-        async
-        defer
-      ></script>
     </footer>
   );
 }

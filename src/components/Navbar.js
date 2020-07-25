@@ -34,7 +34,7 @@ function Navbar() {
         <div className="navbar-end">
           <a
             className={
-              location.pathname === "/"
+              location.pathname !== "/portfolio"
                 ? "navbar-item is-tab hidden"
                 : "navbar-item is-tab"
             }

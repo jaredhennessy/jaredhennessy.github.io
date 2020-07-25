@@ -1,0 +1,64 @@
+[
+  {
+    "id": 0,
+    "name": "Employee Directory",
+    "image": "/assets/images/EmployeeDirectory.png",
+    "demo": "https://employee-directory-jh-demo.herokuapp.com/",
+    "repo": "https://github.com/jaredhennessy/EmployeeDirectory/",
+    "tech": ["react", "node", "axios", "randomuser API"]
+  },
+  {
+    "id": 1,
+    "name": "GetTask",
+    "image": "/assets/images/GetTask.png",
+    "demo": "https://calm-scrubland-27592.herokuapp.com/",
+    "repo": "https://github.com/jaredhennessy/GetTask/",
+    "tech": [
+      "express",
+      "handlebars",
+      "materialize",
+      "mysql",
+      "sequelize",
+      "bcrypt",
+      "nodemailer"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Quarentainment",
+    "image": "/assets/images/Quarentainment-ws.png",
+    "demo": "https://jaredhennessy.github.io/Quarentainment/",
+    "repo": "https://github.com/jaredhennessy/quarentainment/",
+    "tech": [
+      "localstorage",
+      "bulma",
+      "The Movie Database",
+      "NYT Books Bestsellers",
+      "NYT Movie Reviews"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Burger Logger",
+    "image": "/assets/images/BurgerLogger-ws.png",
+    "demo": "https://mysterious-savannah-22824.herokuapp.com/",
+    "repo": "https://github.com/jaredhennessy/BurgerLogger/",
+    "tech": ["node", "express", "handlebars", "mysql"]
+  },
+  {
+    "id": 4,
+    "name": "Weather Dashboard",
+    "image": "/assets/images/WeatherDashboard-ws.png",
+    "demo": "https://jaredhennessy.github.io/WeatherDashboard/",
+    "repo": "https://github.com/jaredhennessy/WeatherDashboard/",
+    "tech": ["OpenWeatherMap API", "bootstrap", "localstorage"]
+  },
+  {
+    "id": 5,
+    "name": "Employee Tracker",
+    "image": "/assets/images/EmployeeTracker.gif",
+    "demo": "https://drive.google.com/file/d/1dcdm27GlA-IbqzdXGz_XfsGEQEJy9ZK8/view",
+    "repo": "https://github.com/jaredhennessy/EmployeeTracker/",
+    "tech": ["node", "inquirer", "console.table", "mysql"]
+  }
+]
