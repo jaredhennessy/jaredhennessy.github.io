@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import projectsArray from "./utils/projects.json";
 // import PortfolioContext from "./utils/PortfolioContext";
 import Home from "./pages/Home";
@@ -32,7 +32,7 @@ function App() {
   }, [projects]);
 
   return (
-    <Router>
+    <Router basename="/">
       <div>
         <Navbar />
         <Switch>
