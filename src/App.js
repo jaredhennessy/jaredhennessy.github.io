@@ -43,7 +43,7 @@ function App() {
               <Portfolio {...props} portfolio={projects} loaded={loaded} />
             )}
           />
-          <Route path="*" component={Home} />
+          <Route component={Home} />
         </Switch>
         <Footer />
       </div>
